@@ -399,7 +399,7 @@ Template["index"] = new Template("Template.index", (function() {
       "class": function() {
         return [ "small", " ", Spacebars.mustache(view.lookup("nodeClientClass"), view.lookup("info"), Spacebars.dot(view.lookup("Blockchain"), "currentApiVersion")) ];
       },
-      href: "https://github.com/ethereum/wiki/wiki/Network-Status#updating",
+      href: "https://github.com/veloxchain/wiki/wiki/Network-Status#updating",
       target: "_blank",
       "data-toggle": "tooltip",
       "data-placement": "top",

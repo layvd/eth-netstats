@@ -478,7 +478,7 @@ Template["indexMeteor"] = new Template("Template.indexMeteor", (function() {
     }), "(", Blaze.View("lookup:info.ip", function() {
       return Spacebars.mustache(Spacebars.dot(view.lookup("info"), "ip"));
     }), ")"), HTML.A({
-      href: "https://github.com/ethereum/wiki/wiki/Network-Status#updating",
+      href: "https://github.com/veloxchain/wiki/wiki/Network-Status#updating",
       target: "_blank",
       "data-toggle": "tooltip",
       "data-placement": "top",
